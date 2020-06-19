@@ -7,6 +7,7 @@ data class Model (
     var info : String,
     var rate : Int
 )
+
 object Supplier {
     var data = arrayListOf<Model>(
         Model(

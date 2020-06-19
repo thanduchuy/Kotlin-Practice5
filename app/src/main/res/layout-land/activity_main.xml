@@ -43,8 +43,8 @@
 
     <GridView
         android:id="@+id/gvTinder"
-        android:layout_width="380dp"
-        android:layout_height="520dp"
+        android:layout_width="600dp"
+        android:layout_height="230dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"

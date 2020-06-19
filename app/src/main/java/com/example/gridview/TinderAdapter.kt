@@ -2,10 +2,12 @@ package com.example.gridview
 
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import com.google.gson.Gson
 import kotlinx.android.synthetic.main.item_layout.view.*
 
 class TinderAdapter : BaseAdapter {
@@ -28,7 +30,6 @@ class TinderAdapter : BaseAdapter {
     override fun getItemId(position: Int): Long {
         return position.toLong()
     }
-
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val tinder = this.tinders[position]
 
